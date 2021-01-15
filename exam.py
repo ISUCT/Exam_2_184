@@ -7,4 +7,3 @@ def expand(D = dict(), path = str(), res = dict()):
     else:
         res[path[: -1]] = D
     return res
-    
